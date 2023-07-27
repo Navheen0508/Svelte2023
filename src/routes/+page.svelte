@@ -1,11 +1,19 @@
 <style>
 
-
+.leftDiv{
+    width:500px;
+    height:500px;
+    border: 5px solid;
+}
 
 </style>
 
+<div class="leftDiv">
 
-<h2>HTML Practice</h2>
+             <h2>HTML Practice</h2>
+
+</div>
+
 <ul>
 
     <li> cat  </li>
