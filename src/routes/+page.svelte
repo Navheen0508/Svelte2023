@@ -19,6 +19,13 @@
 
 </div>
 
+<nav>
+    <a href="/html/">HTML</a>
+    <a href="/css/">CSS</a>
+    <a href="/js/"> JavaScript</a>
+    <a href="/python/"> Python</a>
+</nav>
+
 <ul>
 
     <li> cat  </li>
@@ -30,3 +37,9 @@
 
 <img src="https://2.bp.blogspot.com/-2PItbECvOVs/WKCWkq_aEaI/AAAAAAAACj8/rABnQTv5SFA-8HaFBDWSsiCXxNCKOuUrgCPcB/s1600/Attenborosaurus%2BWitton%2B2017%2Blow%2Bres.jpg">
 <a href="https://www.op.ac.nz/"> Otago Polytech </a>
+
+<footer>
+
+    <p>Made by Navheen</p>
+
+</footer>
