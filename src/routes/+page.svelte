@@ -1,6 +1,6 @@
 <style>
 
-.leftDiv{
+.Div{
     width:500px;
     height:500px;
     border: 5px solid;
@@ -8,7 +8,12 @@
 
 </style>
 
-<div class="leftDiv">
+<script>
+    import Header  from "../lib/Header.svelte";
+</script>
+
+<Header/>
+<div class="Div">
 
              <h2>HTML Practice</h2>
 
