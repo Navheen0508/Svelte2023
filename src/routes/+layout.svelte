@@ -1,5 +1,5 @@
 <svelte:head>
-    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="main.css"> -->
 </svelte:head>
 
 <p>I am the layout file</p>

@@ -1,6 +1,15 @@
 <svelte:head>
-    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="main.css">  -->
 </svelte:head>
+
+<style>
+    
+  h1{ background: lightblue; padding-top: 10px; padding-bottom: 10px; padding-left: 30px; padding-right: 30px;}
+  p{ background: lightgreen; margin: 15px; border: solid green 10px;}
+  li{ background: lightsalmon; border-bottom: solid white 10px; }
+  .footer{ background: lightslategray; padding: 20px; margin-top: -15px; }
+  
+</style>
 
 <div class="main">
     <h1 id="h1">MAIN HEADING</h1>
