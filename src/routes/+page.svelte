@@ -18,6 +18,16 @@
     </div>
 </div>
 
+<div>
+  <div></div>
+  <div></div>
+  <div>
+    <div class="styledDiv">Style this one</div>
+  </div>
+  <div>
+    <div class="styledDiv">But don't style this one!</div>
+  </div>
+</div>
 
 <div class="div">
 

@@ -9,6 +9,14 @@
     font-style:italic;
 }
 
+.styledDiv{
+    background-color: green;
+}
+
+.styledDiv:hover{
+    background: red;
+}
+
 #h1{
     color: white;
     
