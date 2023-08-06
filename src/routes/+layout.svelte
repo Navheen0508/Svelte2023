@@ -1,3 +1,6 @@
+<svelte:head>
+    <link rel="stylesheet" href="main.css">
+</svelte:head>
 
 <p>I am the layout file</p>
 <script>
@@ -10,6 +13,6 @@
 
 <footer>
 
-    <p>Made by Navheen</p>
+    <p> Made by Navheen</p>
 
 </footer>

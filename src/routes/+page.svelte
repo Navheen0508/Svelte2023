@@ -1,20 +1,20 @@
 <svelte:head>
-    <link rel="stylesheet" href="static/main.css">
+    <link rel="stylesheet" href="main.css">
 </svelte:head>
 
 <div class="main">
-    <h1>Main heading</h1>
-    <p>
+    <h1 id="h1">MAIN HEADING</h1>
+    <p id ="p">
     	This is some informative content.
     </p>
-    <ul>
+    <ul id="ul">
       <li>One</li>
       <li>Two</li>
       <li>Three</li>
       <li>Four</li>
     </ul>
     <div class="footer">
-    	Footer content
+    	<b>Footer content</b>
     </div>
 </div>
 
