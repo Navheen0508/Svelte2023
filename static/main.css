@@ -1,33 +1,23 @@
-.main{
+.mainIndexContainer{
     font-family: Arial, Helvetica, sans-serif;
+    width: 1865px;
+    border: 5px solid black;
+    height: 1080px;
+    padding: 20px;
     font-size: 25px;
-    background-color:#146798;
+    margin-top: 10px;
+    margin-left: -5px;
+    background-color:#848e94;
 }
 
-.footer{
-    font-size:35px;
-    font-style:italic;
-}
-
-.styledDiv{
-    background-color: green;
-}
-
-.styledDiv:hover{
-    background: red;
-}
-
-#h1{
-    color: white;
-    
-}
-
-#p{
-    background-color:#f5afd8;
-    text-align: center;
-}
-
-#ul{
-    list-style-type: upper-alpha;
+.mainIndexHeader{
+    width: 1835px;
+    height: 200px;
+    border: 5px solid black;
+    background-image:url(krmainheader.png);
+    background-position: 25% 30%;
+    background-size: cover;
 
 }
+
+

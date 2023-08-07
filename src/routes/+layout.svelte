@@ -1,18 +1,17 @@
 <svelte:head>
-    <!-- <link rel="stylesheet" href="main.css"> -->
+    <link rel="stylesheet" href="main.css"> 
 </svelte:head>
 
-<p>I am the layout file</p>
-<script>
+<!-- <script>
     import Header  from "$lib/Header.svelte";
-</script>
+</script> -->
 
-<Header/>
+<!-- <Header/> -->
 
 <slot/>
 
-<footer>
+<!-- <footer>
 
     <p> Made by Navheen</p>
 
-</footer>
+</footer> -->
