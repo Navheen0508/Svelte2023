@@ -1,23 +1,38 @@
 .mainIndexContainer{
     font-family: Arial, Helvetica, sans-serif;
-    width: 1865px;
-    border: 5px solid black;
+    width: 1900px;
     height: 1080px;
-    padding: 20px;
     font-size: 25px;
-    margin-top: 10px;
-    margin-left: -5px;
+    background-image:url(krmainbackground.png);
+    background-size: cover;
     background-color:#848e94;
+    
 }
 
 .mainIndexHeader{
-    width: 1835px;
+    width: 1900px;
     height: 200px;
-    border: 5px solid black;
-    background-image:url(krmainheader.png);
+    background-color: rgba(255, 255, 255, 0.5);
     background-position: 25% 30%;
     background-size: cover;
+    padding: 10px;
+    
+    
 
+}
+
+.indexHeaderLogo{
+    background-image:url(krrevicelogo.png);
+    background-position: 15% 30%;
+    width: 1000px;
+    height: 200px;
+    margin-left: 500px;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 
