@@ -23,7 +23,7 @@ body {
     height: 240px;
     background-color: rgba(255, 255, 255, 0.5);
     background-size: cover;
-    padding: 10px;
+    padding: 20px;
     
 }
 
@@ -36,7 +36,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} 
 
 .indexHeaderLogo{
     background-image:url('../img/krrevicelogo.png');
@@ -49,8 +49,9 @@ body {
 }
 
 .indexNavigationButtons{
-    width: 250px;
+    width: 400px;
     height: 100px;
+    border-radius: 10px;
 }
 
 li{
