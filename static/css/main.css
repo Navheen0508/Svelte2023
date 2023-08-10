@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainIndexContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    font-size: 25px;
+    background-image:url('../img/krmainbackground.png');
+    background-size: cover;
+    background-color:#848e94;
+    
+}
+
+.mainIndexHeader{
+    width: 100%;
+    height: 240px;
+    background-color: rgba(255, 255, 255, 0.5);
+    background-size: cover;
+    padding: 10px;
+    
+}
+
+.mainIndexNav{
+    width: 600px;
+    height: 650px;
+    border: 2px solid black;
+    margin-top: 50px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.indexHeaderLogo{
+    background-image:url('../img/krrevicelogo.png');
+    background-position: center;
+    margin:auto;
+    width: 1000px;
+    height: 200px;
+
+}
+
+.indexNavigationButtons{
+    width: 250px;
+    height: 100px;
+}
+
+li{
+    list-style-type: none;
+    margin-bottom: 20px;  
+    
+}
+
+nav{
+    padding:10px;
+    
+}
+
