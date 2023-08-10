@@ -41,8 +41,9 @@ body {
 .indexHeaderLogo{
     background-image:url('../img/krrevicelogo.png');
     background-position: center;
+    background-repeat: no-repeat;
     margin:auto;
-    width: 1000px;
+    width: 100%;
     height: 200px;
 
 }
