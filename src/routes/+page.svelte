@@ -14,10 +14,10 @@
 
                                 <nav>
                                     <ul>
-                                        <li><a href="/html/"><button class="indexNavigationButtons">About</button></a></li>
-                                        <li><button class="indexNavigationButtons"><a href="/html/">Characters</a></button></li>
-                                        <li><button class="indexNavigationButtons"><a href="/html/">Vistamps</a></button></li>
-                                        <li><button class="indexNavigationButtons"><a href="/html/">Episode Guide</a></button></li>
+                                        <li><a href="/html/"><button class="indexNavigationButtons">Story</button></a></li>
+                                        <li><a href="/html/"><button class="indexNavigationButtons">Characters</button></a></li>
+                                        <li><a href="/html/"><button class="indexNavigationButtons">Vistamps</button></a></li>
+                                        <li><a href="/html/"><button class="indexNavigationButtons">Episode Guide</button></a></li>
                                     </ul>
                                     
                                 </nav>
