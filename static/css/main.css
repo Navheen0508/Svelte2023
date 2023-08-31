@@ -12,7 +12,7 @@ body {
     width: 100%;
     height: 100vh;
     font-size: 25px;
-    background-image:url('../img/krmainbackground.png');
+    background-image:url('../img/indexwallpaper.jpg');
     background-size: cover;
     background-color:#848e94;
     
@@ -22,11 +22,41 @@ body {
     width: 100%;
     height: 100px; 
     background-color: rgba(20, 28, 44, 0.5);
-    background-size: cover;
     padding: 5px;
     display:flex;
     justify-content: space-between;
   
+}
+
+.mainIndexButtonsContainer{
+    width: 100%;
+    height: 100px;
+    border: 5px white solid;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.indexNavigationButtons {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    flex: 1; 
+    height: 40px;
+    margin: 5px;
+}
+
+.indexNavigationButtons:hover {
+    background-color: #0056b3;
 }
 
 .containImg{
