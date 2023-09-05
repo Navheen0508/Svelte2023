@@ -11,10 +11,10 @@
 
         <div class ="mainIndexButtonsContainer">
             
-            <button class="indexNavigationButtons">Button 1</button>
-            <button class="indexNavigationButtons">Button 2</button>
-            <button class="indexNavigationButtons">Button 3</button>
-            <button class="indexNavigationButtons">Button 4</button>
+            <button class="indexNavigationButtons">Mobile Suits</button>
+            <button class="indexNavigationButtons">Titles</button>
+            <button class="indexNavigationButtons">Shows</button>
+            <button class="indexNavigationButtons">About</button>
 
         </div>
         

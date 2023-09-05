@@ -51,10 +51,14 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
     flex: 1; 
+    font-weight: bold;
+    text-transform: uppercase;
+
 }
 
 .indexNavigationButtons:hover {
-    background-color: #111f2e;
+    background-color: #17283a;
+    border-bottom: 3px rgb(192, 8, 8) solid;
 }
 
 .containImg{
@@ -69,5 +73,10 @@ body {
     display:flex;
     align-items: center;
     width: 100%;
+}
+
+.indexVideoContainer{
+    width: 1000px;
+    height:
 }
 
