@@ -1,4 +1,3 @@
-
 <div class="mainIndexContainer">
     
     <div class="mainIndexHeader">
@@ -22,6 +21,12 @@
     </div>
 
     <div class="indexVideoContainer">
+
+
+<video id="indexVideo" controls autoplay loop>
+  <source src="../video/Gundam Versus Official Opening Cinematic.mp4" type="video/mp4">
+  <track kind="captions" label="English" src="captions.vtt" srclang="en">
+</video>
 
     </div>
 
