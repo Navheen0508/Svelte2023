@@ -15,7 +15,8 @@ body {
     background-image:url('../img/indexwallpaper.jpg');
     background-size: cover;
     background-color:#848e94;
-    
+    display: flex;
+    flex-direction: column;
 }
 
 .mainIndexHeader{
@@ -87,5 +88,11 @@ body {
 }
 
 .footerDiv{
-    
+    width: 100%;
+    height:px;
+    background-color: rgba(20, 28, 44, 0.5);
+    padding: 0px;
+    display:flex;
+    justify-content: space-between;
+    flex:1;
 }
