@@ -32,6 +32,8 @@
 
     <div class="footerDiv">
 
+        <p id="pFooter">© Bandai Namco Games </p>
+
     </div>
 
 </div>

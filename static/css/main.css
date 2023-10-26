@@ -89,10 +89,16 @@ body {
 
 .footerDiv{
     width: 100%;
-    height:px;
+    height:100vh;
     background-color: rgba(20, 28, 44, 0.5);
     padding: 0px;
     display:flex;
     justify-content: space-between;
     flex:1;
+}
+
+#pFooter{
+    color: white;
+    font-size: 50%;
+    margin:auto;
 }
