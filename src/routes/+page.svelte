@@ -20,13 +20,12 @@
     
     </div>
 
-    <div class="indexVideoContainer">
+    <div class="slider">
+        <div class="slides">
 
+            <input type="radio" name="radio-btn" id="radio1">
 
-            <video video id="indexVideo" controls autoplay loop>
-            <source src="../video/Gundam Versus Official Opening Cinematic.mp4" type="video/mp4">
-            <track kind="captions" label="English" src="captions.vtt" srclang="en">
-            </video>
+        </div>
 
     </div>
 
