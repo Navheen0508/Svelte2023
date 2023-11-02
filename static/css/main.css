@@ -141,22 +141,6 @@ body {
     margin-right:40px;
 }
 
-#radio1:checked ~ .navigation-auto .auto-btn1{
-    background: blue;
-}
-
-#radio2:checked ~ .navigation-auto .auto-btn1{
-    background: blue;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn1{
-    background: blue;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn1{
-    background: blue;
-}
-
 .manual-btn{
     border: 2px solid white;
     border-radius: 50%; 
