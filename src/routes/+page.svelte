@@ -1,3 +1,21 @@
+<script type="text/javascript">
+
+    var counter = 1;
+
+        setInterval(function() {
+
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+
+        if (counter > 4) {
+        counter = 1;
+        }
+
+        }, 5000);
+            
+</script>
+
+
 <div class="mainIndexContainer">
     
     <div class="mainIndexHeader">
@@ -71,6 +89,8 @@
                 <label for="radio4" class="manual-btn"></label>
 
             </div>
+
+
 
         </div>
 
