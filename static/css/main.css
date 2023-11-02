@@ -131,7 +131,6 @@ body {
 }
 
 .navigation-auto div{
-    border: 2px solid blue;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
