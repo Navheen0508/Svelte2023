@@ -157,6 +157,10 @@ body {
     background: rgb(192, 8, 8);
 }
 
+.showVideoContainer{
+    
+}
+
 #radio1:checked ~ .first{
     margin-left:0;
 }
