@@ -17,11 +17,37 @@
 
         </div>
 
-        <div class="showVideoContainer">
-            
-        </div>
+        
         
     
     </div>
 
+    <div class="showVideoContainer">
+
+        <video src="../video/gun1intro.mp4" class="vSlider" loop controls>
+                
+            <track kind="captions">
+        
+        </video>
+
+        <ul>
+            <li onclick="videoslider('../video/gun1intro.mp4')"><video src="../video/gun1intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
+            <li onclick="videoslider('../video/gun2intro.mp4')"><video src="../video/gun2intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
+
+
+        </ul>
+            
+    </div>
+
+    <div class="footerDiv">
+
+
+    </div>
+
 </div>
+
+<script>
+        function videoslider(links){
+            document.querySelector(".vSlider").src = links;
+        }
+</script>
