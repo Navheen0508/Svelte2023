@@ -24,7 +24,7 @@
 
     <div class="showVideoContainer">
 
-        <video src="../video/gun1intro.mp4" class="vSlider" loop controls>
+        <video src="../video/gun1intro.mp4" class="vSlider" autoplay loop controls>
                 
             <track kind="captions">
         
@@ -43,14 +43,15 @@
 
     <div class="footerDiv">
 
-        Texting text
+        
 
     </div>
 
 </div>
 
+
 <script>
-        function videoslider(links){
-            document.querySelector(".vSlider").src = links;
-        }
+    function videoslider(links){
+        document.querySelector(".vSlider").src = links;
+    }
 </script>
