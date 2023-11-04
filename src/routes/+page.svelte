@@ -1,4 +1,19 @@
+<script type="text/javascript">
 
+    var counter = 1;
+
+        setInterval(function() {
+
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+
+        if (counter > 4) {
+        counter = 1;
+        }
+
+        }, 5000);
+            
+</script>
 
 
 <div class="mainIndexContainer">
@@ -13,7 +28,7 @@
             
                 <a href="/"><button class="indexNavigationButtons">Mobile Suits</button></a>
                 <button class="indexNavigationButtons">Titles</button>
-                <a href="shows"><button class="indexNavigationButtons">Shows</button></a>
+                <a href=""><button class="indexNavigationButtons">Shows</button></a>
                 <a href="about"><button class="indexNavigationButtons">About</button></a>
         
             </div>
@@ -91,24 +106,6 @@
     </div>
 
 </div>
-
-
-<script type="text/javascript">
-
-    var counter = 1;
-
-        setInterval(function() {
-
-        document.getElementById('radio' + counter).checked = true;
-        counter++;
-
-        if (counter > 4) {
-        counter = 1;
-        }
-
-        }, 5000);
-            
-</script>
 
 
 
