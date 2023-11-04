@@ -157,26 +157,18 @@ body {
     background: rgb(192, 8, 8);
 }
 
-.showVideoContainer{
-    width:100%;
-    height: 100vh;
+.showVideoContainer {
+    width: 100%;
+    height: 80%;
+    flex: 1; 
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px white solid;
 }
 
-.container ~ .vSlider{
+.showVideoContainer ul {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.container ul{
-    position: absolute;
-    bottom: 30px;
+    bottom: 50px; 
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -184,25 +176,26 @@ body {
     z-index: 20;
 }
 
-.container ul li{
+.showVideoContainer ul li {
     list-style: none;
     cursor: pointer;
     margin: 10px;
 }
 
-.container ul li video{
+.showVideoContainer ul li video {
     width: 200px;
     transition: all 0.3s;
 }
 
-.container ul li video:hover{
+.showVideoContainer ul li video:hover {
     transform: scale(1.1);
 }
 
-video{
+video {
     width: 100%;
-    height: 100%;
+    max-height: 100%; /* Ensure the video doesn't overflow the container */
 }
+
 
 #radio1:checked ~ .first{
     margin-left:0;

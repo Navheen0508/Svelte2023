@@ -33,6 +33,8 @@
         <ul>
             <li onclick="videoslider('../video/gun1intro.mp4')"><video src="../video/gun1intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
             <li onclick="videoslider('../video/gun2intro.mp4')"><video src="../video/gun2intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
+            <li onclick="videoslider('../video/gun3intro.mp4')"><video src="../video/gun3intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
+            <li onclick="videoslider('../video/gun4intro.mp4')"><video src="../video/gun4intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
 
 
         </ul>
@@ -41,6 +43,7 @@
 
     <div class="footerDiv">
 
+        Texting text
 
     </div>
 
