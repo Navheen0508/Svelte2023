@@ -21,7 +21,7 @@
 
     <div class="showVideoContainer">
 
-        <video src="../video/gun1intro.mp4" class="vSlider" poster="../img/gun1th.JPG" autoplay controls>
+        <video src="../video/gunintro.mp4" class="vSlider" poster="../img/guninth.jpg" autoplay controls>
                 
             <track kind="captions">
         
@@ -101,16 +101,3 @@
     </div>
 
 </div>
-
-
-<script>
-
-    
-    
-    function videoslider(links) {
-    const vSlider = document.querySelector(".vSlider");
-    vSlider.src = links;
-    vSlider.play(); 
-}
-
-</script>
