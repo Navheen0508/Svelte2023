@@ -65,6 +65,8 @@
 
             </div>
 
+            
+
             <div class="navigation-manual">
 
                 <label for="radio1" class="manual-btn"></label>

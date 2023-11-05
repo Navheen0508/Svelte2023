@@ -10,7 +10,7 @@
 
         <div class ="mainIndexButtonsContainer">
             
-            <a href="routes/page"><button class="indexNavigationButtons">Mobile Suits</button></a>
+            <a href="/"><button class="indexNavigationButtons">Mobile Suits</button></a>
             <button class="indexNavigationButtons">Titles</button>
             <button class="indexNavigationButtons">Shows</button>
             <a href="about"><button class="indexNavigationButtons">About</button></a>
@@ -90,6 +90,13 @@
         <img id="imgShowFooter" src="../img/showIcon5.png" alt="">
         <img id="imgShowFooter" src="../img/showIcon6.png" alt="">
         <img id="imgShowFooter" src="../img/showIcon7.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon8.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon9.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon10.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon11.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon12.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon13.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon14.png" alt="">
 
     </div>
 
