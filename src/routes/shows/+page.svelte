@@ -24,17 +24,17 @@
 
     <div class="showVideoContainer">
 
-        <video src="../video/gun1intro.mp4" class="vSlider" autoplay loop controls>
+        <video src="../video/gun1intro.mp4" class="vSlider" poster="../img/gun1th.JPG" autoplay controls>
                 
             <track kind="captions">
         
         </video>
 
         <ul>
-            <li onclick="videoslider('../video/gun1intro.mp4')"><video src="../video/gun1intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
-            <li onclick="videoslider('../video/gun2intro.mp4')"><video src="../video/gun2intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
-            <li onclick="videoslider('../video/gun3intro.mp4')"><video src="../video/gun3intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
-            <li onclick="videoslider('../video/gun4intro.mp4')"><video src="../video/gun4intro.mp4" class="vSlider" loop controls> <track kind="captions"> </video></li>
+            <li onclick="videoslider('../video/gun1intro.mp4')"><video src="../video/gun1intro.mp4" class="vSlider" poster="../img/gun1th.JPG" controls> <track kind="captions"> </video></li>
+            <li onclick="videoslider('../video/gun2intro.mp4')"><video src="../video/gun2intro.mp4" class="vSlider" poster="../img/gun2th.JPG" controls> <track kind="captions"> </video></li>
+            <li onclick="videoslider('../video/gun3intro.mp4')"><video src="../video/gun3intro.mp4" class="vSlider" poster="../img/gun3th.JPG" controls> <track kind="captions"> </video></li>
+            <li onclick="videoslider('../video/gun4intro.mp4')"><video src="../video/gun4intro.mp4" class="vSlider" poster="../img/gun4th.JPG" controls> <track kind="captions"> </video></li>
 
 
         </ul>

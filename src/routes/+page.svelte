@@ -1,3 +1,5 @@
+<html lang="test">
+
 <script type="text/javascript">
 
     var counter = 1;
@@ -28,16 +30,13 @@
             
                 <a href="/"><button class="indexNavigationButtons">Mobile Suits</button></a>
                 <button class="indexNavigationButtons">Titles</button>
-                <a href=""><button class="indexNavigationButtons">Shows</button></a>
+                <a href="shows"><button class="indexNavigationButtons">Shows</button></a>
                 <a href="about"><button class="indexNavigationButtons">About</button></a>
         
             </div>
         
         </div>
 
-        
-        
-    
     </div>
 
     <div class="slider">
@@ -106,6 +105,8 @@
     </div>
 
 </div>
+
+</html>
 
 
 
