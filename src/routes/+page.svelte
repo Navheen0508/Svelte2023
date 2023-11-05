@@ -89,35 +89,33 @@
 <script type="text/javascript">
     
     document.addEventListener("DOMContentLoaded", function() {
-    var counter = sessionStorage.getItem("slideshowCounter");
-    
-    if (counter === null) {
-        counter = 1; 
-    }
 
-    document.getElementById('radio' + counter).checked = true;
-    var intervalId; 
+        var counter = sessionStorage.getItem("slideshowCounter") || 1;
+        document.getElementById('radio' + counter).checked = true;
+        var intervalId;
 
-    function startSlideshow() {
-        clearInterval(intervalId); 
-        intervalId = setInterval(function() {
-     
-            document.getElementById('radio' + counter).checked = false;
-            counter++;
+        function startSlideshow() {
 
-            if (counter > 4) {
-                counter = 1;
-            }
+            clearInterval(intervalId);
 
-            document.getElementById('radio' + counter).checked = true;
-            sessionStorage.setItem("slideshowCounter", counter);
+            intervalId = setInterval(function() {
 
-        }, 5000);
-    }
+                document.getElementById('radio' + counter).checked = false;
+                counter++;
 
-    startSlideshow(); 
+                if (counter > 4) {
+                    counter = 1;
+                }
 
-});
+                document.getElementById('radio' + counter).checked = true;
+                sessionStorage.setItem("slideshowCounter", counter);
+
+            }, 5000);
+        }
+
+        startSlideshow();
+        
+    });
 
 </script>
 
