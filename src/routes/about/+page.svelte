@@ -27,6 +27,12 @@
 
             <img src="../img/about1.png" alt="">
 
+            <h6>Unreal Power</h6>
+
+            <div class="aboutTextContainer">
+                      
+            </div>
+
         </div>
 
         <div>
@@ -35,6 +41,8 @@
 
             <img src="../img/about2.jpg" alt="">
 
+            <h6>Fast Paced 2vs2 Action-Fighting</h6>
+
         </div>
 
         <div>
@@ -42,6 +50,8 @@
             <h2>Online</h2>
 
             <img src="../img/about3.png" alt="">
+
+            <h6>Challenge the Best</h6>
 
         </div>
 
