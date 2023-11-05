@@ -21,9 +21,29 @@
 
     <div class="aboutContainer">
 
-        <div>Item 1</div>
-        <div>Item 2</div>
-        <div>Item 3</div>
+        <div>
+            
+            <h2>Story Mode</h2>
+
+            <img src="../img/about1.png" alt="">
+
+        </div>
+
+        <div>
+
+            <h2>Free Mode</h2>
+
+            <img src="../img/about2.jpg" alt="">
+
+        </div>
+
+        <div>
+            
+            <h2>Online</h2>
+
+            <img src="../img/about3.png" alt="">
+
+        </div>
 
     </div>
 
