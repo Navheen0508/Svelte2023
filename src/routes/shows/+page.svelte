@@ -17,9 +17,6 @@
 
         </div>
 
-        
-        
-    
     </div>
 
     <div class="showVideoContainer">
@@ -85,9 +82,10 @@
             
     </div>
 
-    <div class="footerDiv">
+    <div class="showFooterDiv">
 
-        
+        <img id="imgShowFooter" src="../img/showIcon1.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon2.png" alt="">
 
     </div>
 
@@ -95,10 +93,13 @@
 
 
 <script>
+
+    
     
     function videoslider(links) {
     const vSlider = document.querySelector(".vSlider");
     vSlider.src = links;
-    vSlider.play(); // Autoplay the new video
+    vSlider.play(); 
 }
+
 </script>
