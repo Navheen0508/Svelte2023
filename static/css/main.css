@@ -220,6 +220,21 @@ body {
     height: 100%;
 }
 
+.aboutContainer{
+    display:flex;
+    width:100%;
+    height: 100vh;
+    border: 1px white solid;
+    align-content: center;
+}
+
+.aboutContainer div{
+    background: rgba(20, 28, 44, 0.5);
+    align-items: center;
+    margin:20px;
+    width: 100%;
+}
+
 
 #radio1:checked ~ .first{
     margin-left:0;

@@ -1,6 +1,5 @@
 <html lang="test">
 
-
 <div class="mainIndexContainer">
     
     <div class="mainIndexHeader">
@@ -23,7 +22,6 @@
     </div>
 
     <div class="slider">
-
 
         <div class="slides">
 
@@ -65,8 +63,6 @@
 
             </div>
 
-            
-
             <div class="navigation-manual">
 
                 <label for="radio1" class="manual-btn"></label>
@@ -76,11 +72,7 @@
 
             </div>
 
-
-
         </div>
-
-        
 
     </div>
 
@@ -111,10 +103,11 @@
                 sessionStorage.setItem("slideshowCounter", counter);
 
             }, 5000);
+
         }
 
         startSlideshow();
-        
+
     });
 
 </script>

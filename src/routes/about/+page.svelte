@@ -16,8 +16,15 @@
             <a href="about"><button class="indexNavigationButtons">About</button></a>
 
         </div>
-        
-    
+
+    </div>
+
+    <div class="aboutContainer">
+
+        <div>Item 1</div>
+        <div>Item 2</div>
+        <div>Item 3</div>
+
     </div>
 
 </div>
