@@ -1,22 +1,5 @@
 <html lang="test">
 
-<script type="text/javascript">
-
-    var counter = 1;
-
-        setInterval(function() {
-
-        document.getElementById('radio' + counter).checked = true;
-        counter++;
-
-        if (counter > 4) {
-        counter = 1;
-        }
-
-        }, 5000);
-            
-</script>
-
 
 <div class="mainIndexContainer">
     
@@ -99,14 +82,40 @@
 
     </div>
 
-    <div class="footerDiv">
-
-
-    </div>
-
 </div>
 
+<script type="text/javascript">
+    
+    document.addEventListener("DOMContentLoaded", function() {
+    var counter = localStorage.getItem("slideshowCounter");
+    
+    if (counter === null) {
+        counter = 1; 
+    }
+
+    document.getElementById('radio' + counter).checked = true;
+    clearInterval(slideshowInterval);
+
+    var slideshowInterval = setInterval(function() {
+    
+        document.getElementById('radio' + counter).checked = false;
+        counter++;
+
+        if (counter > 4) {
+            counter = 1;
+        }
+
+        document.getElementById('radio' + counter).checked = true;
+        localStorage.setItem("slideshowCounter", counter);
+
+    }, 5000);
+});
+
+</script>
+
 </html>
+
+
 
 
 

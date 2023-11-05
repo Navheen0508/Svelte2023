@@ -83,7 +83,6 @@ body {
     display:flex;
     justify-content: space-between;
     flex:1;
-    overflow:hidden;
 }
 
 .showFooterDiv{
@@ -94,6 +93,7 @@ body {
     flex:1;
     overflow:hidden;
     align-content: space-between;
+    padding:10px;
 }
 
 
@@ -238,10 +238,10 @@ body {
 }
 
 #imgShowFooter {
-    display: inline-block; /* Display images in a horizontal line */
-    max-width: 100%; /* Set a maximum width for each image if needed */
-    max-height: 100%; /* Set a maximum height for each image if needed */
-    margin-right: 10px; /* Add some spacing between images */
+    display: inline-block; 
+    max-width: 100%;
+    max-height: 100%; 
+    margin-right: 10px; 
 }
 
 

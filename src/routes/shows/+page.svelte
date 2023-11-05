@@ -86,6 +86,10 @@
 
         <img id="imgShowFooter" src="../img/showIcon1.png" alt="">
         <img id="imgShowFooter" src="../img/showIcon2.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon4.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon5.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon6.png" alt="">
+        <img id="imgShowFooter" src="../img/showIcon7.png" alt="">
 
     </div>
 

@@ -10,7 +10,7 @@
 
         <div class ="mainIndexButtonsContainer">
             
-            <a href="routes/page"><button class="indexNavigationButtons">Mobile Suits</button></a>
+            <a href="/"><button class="indexNavigationButtons">Mobile Suits</button></a>
             <button class="indexNavigationButtons">Titles</button>
             <a href="shows"><button class="indexNavigationButtons">Shows</button></a>
             <a href="about"><button class="indexNavigationButtons">About</button></a>
