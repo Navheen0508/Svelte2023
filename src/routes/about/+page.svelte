@@ -30,7 +30,15 @@
             <h6>Unreal Power</h6>
 
             <div class="aboutTextContainer">
-                      
+
+                    <ul>
+
+                        <li>Featuring Mobile Suits from all across the series history.</li><br>
+                        <li>Wide variety of single player campaigns.</li><br>
+                        <li>Trial battles with challenging bosses.</li><br>
+
+                    </ul>  
+
             </div>
 
         </div>
@@ -42,6 +50,18 @@
             <img src="../img/about2.jpg" alt="">
 
             <h6>Fast Paced 2vs2 Action-Fighting</h6>
+
+            <div class="aboutTextContainer">
+
+                <ul>
+
+                    <li>Coordinate and lay waste to your rivals.</li><br>
+                    <li>Fierce 2 vs 2 fighting combat.</li><br>
+                    <li>Go all out with guns blazing and lighting fast melee.</li><br>
+
+                </ul>  
+                
+            </div>
 
         </div>
 
