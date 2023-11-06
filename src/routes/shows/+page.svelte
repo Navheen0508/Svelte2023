@@ -14,8 +14,11 @@
             <button class="indexNavigationButtons">Titles</button>
             <button class="indexNavigationButtons">Shows</button>
             <a href="about"><button class="indexNavigationButtons">About</button></a>
+            <a href="/"><button class="homeButton"></button></a>
+            
 
         </div>
+        
 
     </div>
 

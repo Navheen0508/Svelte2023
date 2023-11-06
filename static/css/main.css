@@ -62,6 +62,22 @@ body {
     border-bottom: 3px rgb(192, 8, 8) solid;
 }
 
+.homeButton{
+    border:none;
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px;
+    background-image: url(../img/homeIcon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 800px;
+    top:25px;
+}
+
 .containImg{
     object-fit: contain;
     object-position: 0%;
@@ -152,6 +168,7 @@ body {
 }
 
 .manual-btn{
+    background-color: #17283a;
     border: 2px solid white;
     border-radius: 50%; 
     width: 16px; 
@@ -268,6 +285,7 @@ body {
     max-width: 93%;
     padding: 20px;
     border: 3px rgb(192, 8, 8) solid;
+    border-radius: 5px;
 }
 
 .aboutTextContainer ul li{
