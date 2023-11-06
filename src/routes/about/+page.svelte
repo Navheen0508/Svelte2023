@@ -73,6 +73,18 @@
 
             <h6>Challenge the Best</h6>
 
+            <div class="aboutTextContainer">
+
+                <ul>
+
+                    <li>Featuring Online Matchmaking using a Worldwide server.</li><br>
+                    <li>Fight against the best players on the planet.</li><br>
+                    <li>Ranked 2v2 and 3v3 gamemodes.</li><br>
+
+                </ul>  
+                
+            </div>
+
         </div>
 
     </div>
