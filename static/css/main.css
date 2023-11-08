@@ -167,6 +167,22 @@ body {
     margin-right:40px;
 }
 
+.titlesButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 93%;
+    background: transparent;
+    padding: 20px;
+}
+
+.titles-btn{
+    margin:10px;
+    height:50px;
+    width: 70%;
+}
+
 .manual-btn{
     background-color: #17283a;
     border: 2px solid white;
@@ -250,6 +266,7 @@ body {
     align-items: center;
     margin:20px;
     width: 100%;
+    overflow:hidden;
 }
 
 .aboutContainer h2, .titlesContainer h2{
@@ -260,6 +277,7 @@ body {
     text-transform: uppercase;
     background-color: #17283a;
     border-bottom: 3px rgb(192, 8, 8) solid;
+    
 
 }
 

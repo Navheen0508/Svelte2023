@@ -26,6 +26,12 @@
             
             <h2>Gundam Versus</h2>
             <iframe width="550" height="400"src="https://www.youtube.com/embed/7G2ZnfExRXI" title="test"></iframe>
+
+            <div class="titlesButtonContainer">
+                <button class="titles-btn">Learn More</button>
+                <button class="titles-btn">Download for Windows</button>
+                <button class="titles-btn">Download for Mac</button>
+            </div>
           
         </div>
 
@@ -33,6 +39,8 @@
             
             <h2>Gundam VS Maxiboost ON</h2>
             <iframe width="550" height="400"src="https://www.youtube.com/embed/WBvYIGzos2w" title="test"></iframe>
+
+            
 
         </div>
 
