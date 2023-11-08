@@ -272,6 +272,10 @@ body {
 
 }
 
+.titlesContainer iframe{
+    margin-left: 25px;
+}
+
 .aboutContainer img{
     max-width: 100%;
     max-height: 100%;
