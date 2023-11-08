@@ -24,7 +24,7 @@
 
     <div class="showVideoContainer">
 
-        <video src="../video/gunintro.mp4" class="vSlider" poster="../img/guninth.jpg" autoplay controls>
+        <video src="../video/gunintro.mp4" class="vSlider" poster="../img/guninth.jpg" controls volume="0.2">
                 
             <track kind="captions">
         
@@ -104,3 +104,4 @@
     </div>
 
 </div>
+
