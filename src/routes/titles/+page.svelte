@@ -20,4 +20,29 @@
 
     </div>
 
+    <div class="titlesContainer">
+
+        <div>
+            
+            <h2>Gundam Versus</h2>
+
+          
+        </div>
+
+        <div>
+            
+            <h2>Gundam VS Maxiboost ON</h2>
+
+          
+        </div>
+
+        <div>
+            
+            <h2>Gundam Full Extreme VS</h2>
+
+          
+        </div>
+
+    </div>
+
 </div>
