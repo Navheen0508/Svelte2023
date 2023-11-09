@@ -24,22 +24,55 @@
 
     <div class="suitsContainer">
 
-        <div id="container">
+        <div class="suitsContainerDivs">
 
-            Content
+            <div id="characterContainer">
+
+                Content
+
+                <div id="charImage">
+
+                    <h1 id="charName">Gundam Kyrios</h1>
+                    <img src="../img/Kyrios.png" alt="char1">
+                    
+                </div>
+
+                <button class="buttonChar" onclick="ChangeCharacter('Kyrios')">Kyrios</button>
+                <button class="buttonChar" onclick="ChangeCharacter('Freedom')">Freedom</button>
+
+
+
+            </div>
 
         </div>
 
-        <div>
-
-            Content
+        <div class="suitsContainerDivs">
 
         </div>
-
-
+        
     </div>
 
 
 </div>
+
+<script>
+
+    function ChangeCharacter(character)
+    {
+    switch(character)
+    {
+        case "Kyrios":
+            document.getElementById("charImage").src = "../img/Kyrios.png";
+            document.getElementById("charName").innerHTML = "Kyrios";
+            break;
+        case "Freedom":
+            document.getElementById("charImage").src = "../img/Freedom.png";
+            document.getElementById("charName").innerHTML = "Freedom";
+            break;
+    
+    }
+    }
+        </script>
+    
 
 </html>
