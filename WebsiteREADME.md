@@ -9,5 +9,15 @@ Before I began coding my website I evaluated 3 sites which I wanted to incorpora
 
 **Link: https://www.bungie.net/7/en/destiny/newlight**
 
-The inspiration for the nav bar and buttons across all my pages came from the Destiny 2 website. I liked simple and clean it looked and also liked the underline hover effect when you hover over the buttons so I implemented this design aspect of 
-the website into my own. 
+The inspiration for the nav bar and buttons across all my pages came from the Destiny 2 website. I liked simple and clean it looked and also liked the underline hover effect when you hover over the buttons so I implemented this design aspect of the website into my own. 
+
+## Pierre's Ice Cream
+
+![image](https://github.com/Navheen0508/Svelte2023/assets/131924590/4a645665-928d-453c-a461-94aa01f57d10)
+
+**Link:https://pierres.com/**
+
+I decided that I wanted to have a slideshow as my main attraction for my home page and this was the website that made me appreciate the design of a slideshow the best as it looks tidy and fits well with the type of nav
+bar that I was also planning to implement. The elements on the page are positioned well and situated nicely. 
+
+
