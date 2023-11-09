@@ -71,7 +71,8 @@
           Content
 
           <div id="charImage">
-            <h1 id="charName">Gundam Kyrios</h1>
+            <h1 id="charName">Freedom Gundam</h1>
+            <img src="../img/Freedom.png" alt="Freedom Gundam">
           </div>
 
           <button class="buttonChar" onclick="ChangeCharacter('Kyrios')"
