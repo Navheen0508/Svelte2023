@@ -80,6 +80,12 @@
           <button class="buttonChar" onclick="ChangeCharacter('Freedom')"
             >Freedom</button
           >
+          <button class="buttonChar" onclick="ChangeCharacter('Freedom')"
+            >Justice</button
+          >
+          <button class="buttonChar" onclick="ChangeCharacter('Freedom')"
+            >Barbatos</button
+          >
         </div>
       </div>
 
