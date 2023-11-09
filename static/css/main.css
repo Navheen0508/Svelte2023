@@ -480,3 +480,9 @@ body {
     color: rgb(255, 255, 255);
     font-size: 28px;
 }
+
+.suitsContainer img{
+    margin:auto;
+    padding:10px;
+    
+}
