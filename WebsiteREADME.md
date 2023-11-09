@@ -7,7 +7,7 @@ Before I began coding my website I evaluated 3 sites which I wanted to incorpora
 
 ![image](https://github.com/Navheen0508/Svelte2023/assets/131924590/3da881ca-5101-429b-ac29-c8e395853e3e)
 
-**Link: https://www.bungie.net/7/en/destiny/newlight
+**Link: https://www.bungie.net/7/en/destiny/newlight**
 
 The inspiration for the nav bar and buttons across all my pages came from the Destiny 2 website. I liked simple and clean it looked and also liked the underline hover effect when you hover over the buttons so I implemented this design aspect of 
 the website into my own. 
