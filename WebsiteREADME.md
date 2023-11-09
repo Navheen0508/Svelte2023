@@ -72,6 +72,31 @@ In addition to fixing all of the bugs mentioned above - below are some features 
 * A better API to implement - such as the ones on Github which contain Gundam data.
 * More interactive features such as more refined image galleries and video slideshows.
 * Transition into a more complex modern design using more Javascript weighted code.
+
+## Screenshots of my Website:
+
+* Home Page
+
+![image](https://github.com/Navheen0508/Svelte2023/assets/131924590/d658b8de-6251-41b8-b3bc-2d0dfb842d9e)
+
+* Mobile Suits Page
+
+![image](https://github.com/Navheen0508/Svelte2023/assets/131924590/f2263aa7-8cc0-4d02-b6da-f95b55a0faf0)
+
+* Titles Page
+
+![image](https://github.com/Navheen0508/Svelte2023/assets/131924590/6c0b9a64-7e28-4025-b72f-3fe852fca903)
+
+* Shows Page
+
+![image](https://github.com/Navheen0508/Svelte2023/assets/131924590/700b5b6a-61a1-4556-9e2a-f9f37bae64d8)
+
+* About Page
+
+![image](https://github.com/Navheen0508/Svelte2023/assets/131924590/d624df43-55fa-44d7-9d91-c13bec90a61a)
+
+
+
   
 
 
