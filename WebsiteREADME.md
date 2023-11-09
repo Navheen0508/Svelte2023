@@ -47,12 +47,12 @@ Link: https://github.com/Navheen0508/Svelte2023
 - - - -
 2. Step 2 - Make sure you are in the correct directory after cloning. Open the folder using Visual Studio Code.
 - - - -
-4. Click on Terminal > New Terminal and type:
+3. Step 3 - Click on Terminal > New Terminal and type:
 ```
 npm install
 ```
 - - - -
-5. Run the page by typing in the terminal:
+4. Step 4 - Run the page by typing in the terminal:
 ```
 npm run dev
 ```
