@@ -22,6 +22,23 @@
 
     </div>
 
+    <div class="suitsContainer">
+
+        <div id="container">
+
+            Content
+
+        </div>
+
+        <div>
+
+            Content
+
+        </div>
+
+
+    </div>
+
 
 </div>
 
