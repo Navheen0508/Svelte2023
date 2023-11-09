@@ -1,6 +1,6 @@
 # About my Website
 
-I have chosen to do my website about a topic that I'm passionate about - Gundam. A Japanese franchise featuring giant mech suits piloted by humans who battle each other for inter-galactic supremacy, representing various different factions.  It will include content which promotoes the franchise (either their model kits or the shows and games).
+I have chosen to do my website about a topic that I'm passionate about - Gundam. A Japanese franchise featuring giant mech suits piloted by humans who battle each other for inter-galactic supremacy, representing various different factions.  It will include content which promotes the franchise (either their model kits or the shows and games).
 Before I began coding my website I evaluated 3 sites which I wanted to incorporate elements of into my own. These websites belonged to the Destiny 2 game, Pierre's Ice Cream and a personal website by a web dev known as Cihad Turhan.
 
 ## Destiny 2
