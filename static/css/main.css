@@ -210,6 +210,25 @@ body {
     overflow:hidden;
 }
 
+.clicked {
+    animation: clickAnimation 1s;
+}
+
+@keyframes clickAnimation {
+    0% {
+        background: rgb(5, 26, 68);
+        transform: scale(1);
+    }
+    50% {
+        background: rgb(104, 3, 3);
+        transform: scale(1.2);
+    }
+    100% {
+        background: rgb(5, 26, 68);
+        transform: scale(1);
+    }
+}
+
 .manual-btn{
     background-color: #17283a;
     border: 2px solid white;
