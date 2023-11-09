@@ -1,6 +1,6 @@
 # About my Website
 
-I have chosen to do my website about a topic that I'm passionate about - Gundam. A Japanese franchise featuring giant mech suits piloted by humans who battle each other for inter-galactic supremacy, representing various different factions. 
+I have chosen to do my website about a topic that I'm passionate about - Gundam. A Japanese franchise featuring giant mech suits piloted by humans who battle each other for inter-galactic supremacy, representing various different factions.  It will include content which promotoes the franchise (either their model kits or the shows and games).
 Before I began coding my website I evaluated 3 sites which I wanted to incorporate elements of into my own. These websites belonged to the Destiny 2 game, Pierre's Ice Cream and a personal website by a web dev known as Cihad Turhan.
 
 ## Destiny 2
@@ -28,3 +28,14 @@ bar that I was also planning to implement. The elements on the page are position
 
 Looking at this website, I really appreciated the 2 column style of layout that this web developer used for their website. It seemed simple enough to create but also looked like it would be a perfect for fitting content
 easily into. Most of my pages will end up having 2 or 3 column layouts like this one with the content fitted inside them. 
+
+## Technologies Used:
+
+* Visual Studio Code - For the coding of the site.
+* Svelte - The framework that I will be working in.
+* Unsplash API - For image fetching.
+* Postman - To generate image queries which will fetch the Gundam images that I want to display on the site.
+* HTML - I will be writing HTML code
+* CSS - I will be writing CSS code
+* Javascript - I will be using Javascript
+
