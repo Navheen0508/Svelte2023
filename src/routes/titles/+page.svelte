@@ -28,8 +28,8 @@
             <iframe width="550" height="400"src="https://www.youtube.com/embed/7G2ZnfExRXI" title="test"></iframe>
 
             <div class="titlesButtonContainer">
-                <button class="titles-btn">Learn More</button>
-                <button class="titles-btn">Download for Windows</button>
+                <a href="https://gundam.fandom.com/wiki/Gundam_Versus"><button class="titles-btn">Learn More</button></a>
+                <a href="https://gundam.fandom.com/wiki/Gundam_Versus"><button class="titles-btn">Download for Windows</button></a>
                 <button class="titles-btn">Download for Mac</button>
             </div>
           
