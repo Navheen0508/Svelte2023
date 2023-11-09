@@ -59,16 +59,20 @@
 
     function ChangeCharacter(character)
     {
+
     switch(character)
     {
         case "Kyrios":
             document.getElementById("charImage").src = "../img/Kyrios.png";
             document.getElementById("charName").innerHTML = "Kyrios";
+            
             break;
         case "Freedom":
             document.getElementById("charImage").src = "../img/Freedom.png";
             document.getElementById("charName").innerHTML = "Freedom";
+            console.log(character);
             break;
+
     
     }
     }

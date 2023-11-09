@@ -456,13 +456,13 @@ body {
     position: relative;
     display: inline-block;
     padding: 15px 25px;
-    color: #ffffff;
     font-size: 12px;
     font-family: sans-serif;
     font-weight: bold;
-    border-radius: 3px;
-    background: #0c3766;
-    border: 1px solid red;
+    border-radius: 10px;
+    border: 1px solid white;
+    background:linear-gradient(90deg,rgb(5, 26, 68),rgb(104, 3, 3));
+    color:white;
     box-shadow: 0px 1px 4px -2px #333;
     text-shadow: 0px -1px #333;
     border-radius: 10px;
@@ -477,6 +477,6 @@ body {
     border-radius: 10px;
 }
 .buttonChar:hover{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 28px;
 }
