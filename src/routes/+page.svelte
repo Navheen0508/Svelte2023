@@ -11,7 +11,7 @@
             <div class ="mainIndexButtonsContainer">
             
                 <a href="/"><button class="indexNavigationButtons">Mobile Suits</button></a>
-                <button class="indexNavigationButtons">Titles</button>
+                <a href="titles"><button class="indexNavigationButtons">Titles</button></a>
                 <a href="shows"><button class="indexNavigationButtons">Shows</button></a>
                 <a href="about"><button class="indexNavigationButtons">About</button></a>
                 <a href="/"><button class="homeButton"></button></a>
