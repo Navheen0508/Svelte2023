@@ -64,6 +64,18 @@ npm run dev
 * The animated buttons on the Titles page do not go anywhere even though they are linked with a href in the code.
 * Leaving the page open for a really long time on a different page other than the Home page might cause the automated slideshow feature to stop automatically transitioning.
 
+## Future Roadmap:
+
+In addition to fixing all of the bugs mentioned above - below are some features that I would like to add going forward:
+
+* A search bar for the website.
+* A better API to implement - such as the ones on Github which contain Gundam data.
+* More interactive features such as more refined image galleries and video slideshows.
+* Transition into a more complex modern design using more Javascript weighted code.
+  
+
+
+
 
 
   
