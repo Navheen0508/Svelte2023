@@ -31,11 +31,20 @@ easily into. Most of my pages will end up having 2 or 3 column layouts like this
 
 ## Technologies Used:
 
-* Visual Studio Code - For the coding of the site.
-* Svelte - The framework that I will be working in.
-* Unsplash API - For image fetching.
-* Postman - To generate image queries which will fetch the Gundam images that I want to display on the site.
-* HTML - I will be writing HTML code
-* CSS - I will be writing CSS code
-* Javascript - I will be using Javascript
+* **Visual Studio Code** - The software that I will be using for the coding of the site.
+* **Svelte** - The framework that I will be working in.
+* **Unsplash API** - For image fetching.
+* **Postman** - To generate image queries which will fetch the Gundam images that I want to display on the site.
+* **HTML** - I will be writing HTML code.
+* **CSS** - I will be writing CSS code.
+* **Javascript** - I will be using Javascript.
+
+## Known Bugs:
+
+* The slideshow on the homepage will transition to a previous slide in the queue in it's automatic mode as the next slide if you manually select a slide to go to that is further than the one you are currently on.
+* The character selection script in the Mobile Suits page is not working - when the character buttons are clicked on, the image does not change to it's respective Mobile Suit. Only the name.
+* The animated buttons on the Titles page do not go anywhere even though they are linked with a href in the code.
+* Leaving the page open for a really long time on a different page other than the Home page might cause the automated slideshow feature to stop automatically transitioning. 
+
+  
 
