@@ -1,10 +1,10 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;            /*Set all elements on the page to border-box */
 }
 
 body {
     margin: 0;
-    padding: 0;
+    padding: 0;                        /*Set margin and padding to 0 to remove unwanted white space*/
 }
 
 .mainIndexContainer{
@@ -12,7 +12,7 @@ body {
     width: 100%;
     height: 100vh;
     font-size: 25px;
-    background-image:url('../img/indexwallpaper.jpg');
+    background-image:url('../img/indexwallpaper.jpg');      /*Div class which contains every element on the page */
     background-size: cover;
     background-color:#848e94;
     display: flex;
@@ -22,7 +22,7 @@ body {
 .mainIndexHeader{
     width: 100%;
     height: 100px; 
-    background-color: rgba(20, 28, 44, 0.5);
+    background-color: rgba(20, 28, 44, 0.5);            /*Div class which is the header of the website*/
     padding: 0px;
     display:flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ body {
     height: 100px;
     flex-grow: 1;
     display: flex;
-    justify-content: center;
+    justify-content: center;                            /*Div class which contains the navigation buttons of the website*/
     align-items: center;
     align-self: flex-start;
     margin-right: 900px;
@@ -46,7 +46,7 @@ body {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;      /*Button class which applies to the navigation buttons of the website */
     color: white;
     background-color:transparent;
     cursor: pointer;
@@ -59,7 +59,7 @@ body {
 
 .indexNavigationButtons:hover {
     background-color: #17283a;
-    border-bottom: 3px rgb(192, 8, 8) solid;
+    border-bottom: 3px rgb(192, 8, 8) solid;       /*Styling rule for hover state that belongs to the navigation buttons of the website*/
 }
 
 .homeButton{
@@ -67,7 +67,7 @@ body {
     border-radius: 50%; 
     width: 50px; 
     height: 50px;
-    background-image: url(../img/homeIcon.png);
+    background-image: url(../img/homeIcon.png);     /*Button class which applies to the home button of the website */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
