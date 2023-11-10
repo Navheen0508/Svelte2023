@@ -83,27 +83,27 @@
     
     document.addEventListener("DOMContentLoaded", function() {
 
-        var counter = sessionStorage.getItem("slideshowCounter") || 1;
+        var counter = sessionStorage.getItem("slideshowCounter") || 1;  //Get the current slideshow counter value from the session storage or set it to 1 if there isn't one
         document.getElementById('radio' + counter).checked = true;
-        var intervalId;
+        var intervalId;                                                 //Store interval ID for slideshow 
 
         function startSlideshow() {
 
-            clearInterval(intervalId);
+            clearInterval(intervalId);                                                  //Clear existing interval value and set a new one
 
             intervalId = setInterval(function() {
 
-                document.getElementById('radio' + counter).checked = false;
+                document.getElementById('radio' + counter).checked = false;  //Initialize a slideshow on page load, remembering the slide counter in sessionStorage to remember current slide.
                 counter++;
 
-                if (counter > 4) {
-                    counter = 1;
+                if (counter > 4) {                                                          
+                    counter = 1;                                                        
                 }
 
                 document.getElementById('radio' + counter).checked = true;
                 sessionStorage.setItem("slideshowCounter", counter);
 
-            }, 5000);
+            }, 5000);                                                       //Advance slide every 5 seconds once and when reaching the end, start over again
 
         }
 

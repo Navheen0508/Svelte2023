@@ -73,9 +73,9 @@
     var titlesButtons = document.querySelectorAll('.titlesButtonContainer a');
 
     titlesButtons.forEach(button => {
-    button.addEventListener('click', function (event) {
+    button.addEventListener('click', function (event) {  //When button is clicked, add the clicking animation and remove it after a delay
     event.preventDefault();
-    button.classList.add('clicked');
+    button.classList.add('clicked');   
 
     setTimeout(() => {
         button.classList.remove('clicked');

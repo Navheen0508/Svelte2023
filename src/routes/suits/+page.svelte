@@ -2,31 +2,31 @@
 
     import { onMount } from "svelte";
 
-    let allData = [];
+    let allData = [];     //Variable to store fetched data 
     const BASE_URL = "https://api.unsplash.com/search/photos";
     const API_KEY = "wjv4ZtTX-i5cyFTaY_20ByyPc3cnvHLcOOb95dkINx8";
     const query = "gundam";
 
-    onMount(async () => {
+    onMount(async () => {     //Execute when component is mounted
       try {
         const response = await fetch(
-          `${BASE_URL}?query=${query}&client_id=${API_KEY}`
+          `${BASE_URL}?query=${query}&client_id=${API_KEY}` //Fetch data from from Unsplash
         );
         if (response.ok) {
-          const data = await response.json();
+          const data = await response.json(); //If data is successfully fetched, display the fetched data results
           allData = data.results;
         } else {
-          console.error("Error fetching data:", response.statusText);
+          console.error("Error fetching data:", response.statusText); //If unsuccessful, display error message
         }
       } catch (error) {
         console.error("Error fetching data:", error);
       }
     });
 
-    function ChangeCharacter(character) {
+    function ChangeCharacter(character) {     //Function that is supposed to change source images and names of Gundam based on which button is clicked
       switch (character) {
         case "Freedom":
-          document.getElementById("charImage").src = "/img/Freedom.png";
+          document.getElementById("charImage").src = "/img/Freedom.png"; //Ex. If Freedom button is clicked, changed image source to Freedom Gundam image location.png
           document.getElementById("charName").innerHTML = "Freedom";
           break;
 
