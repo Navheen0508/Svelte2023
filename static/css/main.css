@@ -241,21 +241,22 @@ body {
 .showVideoContainer {               
     width: 100%;
     height: 80%;
-    flex: 1;                         /**/
+    flex: 1;                         /*Div class which contains the videos on the shows page*/
     display: flex;
     justify-content: center;
 }
 
 .showVideoContainer video {
-    width: 100%;
+    width: 100%;                     /*Styling rule for all video tags within the showVideoContainer div*/
     height: 100%;
+    object-fit: cover;
 }
 
 .showVideoContainer ul {
     position: absolute;
     bottom: 10%; 
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%);     /*Styling rule for all ul tags within the showVideoContainer div*/
     display: flex;
     justify-content: center;
     z-index: 20;
@@ -263,29 +264,23 @@ body {
 
 .showVideoContainer ul li {
     list-style: none;
-    cursor: pointer;
+    cursor: pointer;             /*Styling rule for all ul and li tags within the showVideoContainer div*/
     margin: 10px;
 }
 
 .showVideoContainer ul li video {
     width: 200px;
-    transition: all 0.3s;
+    transition: all 0.3s;                /*Styling rule for all ul, li and video tags within the showVideoContainer div. Adds a transition effect to video slideshow*/
 }
 
 .showVideoContainer ul li video:hover {
-    transform: scale(1.1);
-}
-
-.showVideoContainer video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    transform: scale(1.1);                   /*Styling rule for all ul, li and video tags within the showVideoContainer div. Creates a simple enlarging animation when hovering over a video in the list*/
 }
 
 .showVideoContainer ~ .vSlider{
     position:absolute;
     top:0;
-    left: 0;
+    left: 0;                               /*Set the position of vSlider to be absolute, filling the entire width and height of the showVideoContainer div. This ensures that the videos do not exceed the size */
     width: 100%;
     height: 100%;
 }
@@ -293,7 +288,7 @@ body {
 .aboutContainer, .titlesContainer{
     display:flex;
     width:100%;
-    height: 100vh;
+    height: 100vh;                     
     align-content: center;
     overflow: hidden;
 }
