@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-box;            /*Set all elements on the page to border-box */
+    box-sizing: border-box;            /*Set all elements on the page to border-box*/
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     width: 100%;
     height: 100vh;
     font-size: 25px;
-    background-image:url('../img/indexwallpaper.jpg');      /*Div class which contains every element on the page */
+    background-image:url('../img/indexwallpaper.jpg');      /*Div class which contains every element on the page*/
     background-size: cover;
     background-color:#848e94;
     display: flex;
@@ -46,7 +46,7 @@ body {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;      /*Button class which applies to the navigation buttons of the website */
+    font-family: Arial, Helvetica, sans-serif;      /*Button class which applies to the navigation buttons of the website*/
     color: white;
     background-color:transparent;
     cursor: pointer;
@@ -67,7 +67,7 @@ body {
     border-radius: 50%; 
     width: 50px; 
     height: 50px;
-    background-image: url(../img/homeIcon.png);     /*Button class which applies to the home button of the website */
+    background-image: url(../img/homeIcon.png);     /*Button class which applies to the home button of the website*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -81,30 +81,21 @@ body {
 .containImg{
     object-fit: contain;
     object-position: 0%;
-    width: auto;
+    width: auto;                    /*Styling rule for the images in the header div*/
     max-width: 160%;
     height: 100%;
 }
 
 .headerImages{
     display:flex;
-    align-items: center;
+    align-items: center;           /*Div which contains images within the header*/
     width: 100%;
-}
-
-.footerDiv{
-    width: 100%;
-    height:20vh;
-    background-color: rgba(20, 28, 44, 0.5);
-    display:flex;
-    justify-content: space-between;
-    flex:1;
 }
 
 .showFooterDiv{
     width: 100%;
     height:100vh;
-    background-color: rgba(20, 28, 44, 0.5);
+    background-color: rgba(20, 28, 44, 0.5);       /*Div which contains the logos of Gundam shows in the Shows page*/
     display:flex;
     flex:1;
     overflow:hidden;
@@ -116,28 +107,28 @@ body {
 .slider {
     width: 100%; 
     height: auto; 
-    border-radius: 10px;
+    border-radius: 10px;        /*Parent div of the slider on the home page*/
     overflow: hidden;
     margin: auto;
 }
 
 .slides {
     width: 400%; 
-    height: 100%; 
+    height: 100%;              /*Child div inside the slider div*/
     display: flex;
 }
 
-.slides input{
-    display:none;
+.slides input{                  
+    display:none;             /*Styling rule for the radio buttons within the slides div*/
 }
 
 .slide{
-    object-fit: contain;
+    object-fit: contain;     /*Child div inside the slides div*/
     transition: 2s;
 }
 
 .slide img {
-    width: 100%; 
+    width: 100%;            /*Styling rule for images within the slide div*/
     height: auto; 
 }
 
