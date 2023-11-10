@@ -135,7 +135,7 @@ body {
 .navigation-manual{
     position: absolute;
     width: 100%; 
-    bottom: 20px; 
+    bottom: 20px;               /*Div which is responsible for navigating the slideshow manually*/
     display: flex;
     justify-content: center;
 }
@@ -143,26 +143,26 @@ body {
 .navigation-auto{
     position: absolute;
     display: none;
-    width: 100%;
+    width: 100%;                    /*Div which is responsible for the autoplay navigation*/
     justify-content: center;
     margin-top: 460px;
 }
 
 .navigation-auto div{
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 10px;            /*Styling rule for divs within the autoplay navigation div*/
     transition: 1s;
 }
 
 .navigation-auto div:not(:last-child){
-    margin-right:40px;
+    margin-right:40px;                  /*Select all elements except last-child in navigation auto and give it a right margin of 40px, creating space between them in a horizontal list*/
 }
 
 .titlesButtonContainer {
     position:relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;                
     justify-content: center;
     max-width: 93%;
     background: transparent;
