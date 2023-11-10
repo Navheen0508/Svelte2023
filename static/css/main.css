@@ -224,24 +224,24 @@ body {
     background-color: #17283a;
     border: 2px solid white;
     border-radius: 50%; 
-    width: 16px;                        
+    width: 16px;                        /*Button class which applies to the buttons which are selected manually on slideshow in the home page*/
     height: 16px;
     cursor: pointer;
     transition: 1s;
 }
 
 .manual-btn:not(:last-child){
-    margin-right:40px;
+    margin-right:40px;               /*Select all elements except last-child in manual-btn and give it a right margin of 40px, creating space between them in a horizontal list*/
 }
 
 .manual-btn:hover{
-    background: rgb(192, 8, 8);
+    background: rgb(192, 8, 8);      /*Styling rule for hover state of the manually selected buttons in the slideshow */
 }
 
-.showVideoContainer {
+.showVideoContainer {               
     width: 100%;
     height: 80%;
-    flex: 1; 
+    flex: 1;                         /**/
     display: flex;
     justify-content: center;
 }
