@@ -350,7 +350,7 @@ body {
 .suitsContainer{
     display:flex;
     width:100%;
-    height: 100vh;
+    height: 100vh;              /*Div which contains the elements within the suits page*/             
     align-content: center;
     overflow: hidden;
 }
@@ -358,18 +358,18 @@ body {
 .suitsContainerDivs{
     background: rgba(20, 28, 44, 0.5);
     align-items: center;
-    margin:20px;
+    margin:20px;                /*Child divs within the suitsContainer div*/
     width: 100%;
     overflow:hidden;
 
 }
 
 
-#radio1:checked ~ .first{
+#radio1:checked ~ .first{       /*When Radio1 button is clicked, do not move the slideshow image*/
     margin-left:0;
 }
 
-#radio2:checked ~ .first{
+#radio2:checked ~ .first{      /*When Radio2, 3 and 4 buttons are clicked, move the current image to the left and replace it with the new one*/
     margin-left:-25%;
 }
 
@@ -381,9 +381,9 @@ body {
     margin-left:-75%;
 }
 
-#imgShowFooter {
+#imgShowFooter {            
     display: inline-block; 
-    max-width: 100%;
+    max-width: 100%;            /*Styling rule for the img elements within the footer div on the shows page*/
     max-height: 100%; 
     margin-right: 10px;
 }
